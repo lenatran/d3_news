@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>D3Times</title>
+		<!-- Latest compiled and minified CSS & JS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			
+			<!-- Header-->
+			<div class="jumbotron"></div>
+			
+			<div class="row">
+				<h1>D3 News</h1>
+			</div>
+
+			<!-- D3 Chart-->
+			<div class="row">
+				<div class="col-md-6">
+					<div class="iframeContainer">
+						<iframe src="d3.html" width="900", height="500", frameborder="0"></iframe>
+					</div>
+				</div>
+
+				<!-- Article-->
+				<div class="col-md-6">
+					<div class="panel">
+						<div class="panel-body">
+							The data visualization on the left is a scatter plot that shows a correlation between two different data variables, poverty and diabetes, by state. As the data shows, there appears to be a slight, direct relationship between the two.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer-->
+		<div id="footer">
+			<p>Property of D3 Data News</p>
+		</div>
+
+	</body>
+</html>
