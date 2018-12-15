@@ -21,7 +21,7 @@ var chartGroup = svg.append("g")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Import data
-d3.csv("data.csv", function (err, newsData) {
+d3.csv("data/data.csv", function (err, newsData) {
     if (err) throw err;
     newsData.forEach(function (data) {
         data.poverty = +data.poverty;
